@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+
+body{
+padding: 0;
+margin: 0;
+}
+#header{
+    
+    width:100%;
+    background-color: #eeeeee;
+    padding: 5px;
+    height: 40px;
+} 
+#logo{
+    font-family: 'Staatliches', cursive;
+    float: left;
+    font-size: 120%;
+    padding: 3px 5px;
+    height: 30px;
+}
+#buttonContainer{
+    font-family: 'Bree Serif', serif;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.togglebutton{
+    float: left;
+    border: 1px solid gray;
+    padding: 6px;
+    border-right: none;
+    font-size: 90%;
+}
+#html{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}    
+#output{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    border: 1px solid grey;
+
+}
+.highlightButton{
+ background-color:grey;
+}
+.active{
+    background-color: #ECF2FA;
+}
+#bodyContainer{
+    height: 100%;
+    font-family: 'Archivo Narrow', sans-serif;    
+}
+textarea{
+    width: 50%;   
+    resize: none;
+    border-top: none;
+    border-color: grey;
+}
+.Panel{
+    width: 50%;
+    float: left;
+    border-left: none;
+ 
+}
+iframe{
+    border: none;   
+}
+.hidden{
+    display: none;
+}

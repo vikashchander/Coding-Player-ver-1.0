@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Player</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css" >
+</head>
+<body>
+    <div id="header">
+    <div id="logo">Coding Player</div>
+    <div id="buttonContainer">
+        <div class="togglebutton active" id="html">HTML</div>
+        <div class="togglebutton " id="css">CSS</div>
+        <div class="togglebutton " id="javascript">JavaScript</div>
+        <div class="togglebutton active" id="output">Output</div>
+    </div>
+</div>
+<div id="bodyContainer">
+    <textarea id="htmlPanel" class="Panel"><p id="paragraph">Hello World</p></textarea>
+    <textarea id="cssPanel" class="Panel hidden">p{color:green}</textarea>
+    <textarea id="javascriptPanel" class="Panel hidden">
+        document.getElementById("paragraph").innerHTML="hello vikash"</textarea>
+    <iframe id="outputPanel" class="Panel"></iframe>
+</div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="Script.js" ></script>
+</body>
+</html>
